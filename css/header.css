@@ -1,0 +1,91 @@
+.backgrund-image-div {
+  background-image: url("../assests/netflix-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.backdrop::before {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header-space {
+  padding: 1.3rem 4rem;
+}
+
+.main-header {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  width: 16%;
+  height: 100%;
+}
+
+.header-logo img {
+  width: 80%;
+  height: 77%;
+}
+
+.header-options {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-header-option {
+  width: 42%;
+  height: 100%;
+}
+
+.first-header-option select {
+  padding: 0.2rem 0.6rem;
+  outline: 0;
+  background: transparent;
+}
+
+.first-header-option select::slotted {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.first-header-option svg {
+  width: 24px;
+  height: 24px;
+}
+
+.first-header-option span {
+  color: fff;
+}
+
+.sign-in-button {
+  width: 42%;
+  height: 100%;
+}
+
+.sign-in-button button {
+  padding: 0.55rem 1rem;
+  border: 0;
+  background-color: rgb(229, 9, 20);
+  color: rgb(255, 255, 255);
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 0.2rem;
+}
+
+.sign-in-button button:hover {
+  background-color: rgb(201, 7, 17);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}

@@ -1,0 +1,255 @@
+.main-section {
+  height: 33rem;
+}
+
+.section-info {
+  width: 92%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-head {
+  width: 100%;
+  text-align: center;
+}
+
+.section-head h1 {
+  color: #fff;
+  font-size: 3.4rem;
+  font-weight: 800;
+}
+
+.section-sub-head {
+  width: 100%;
+  text-align: center;
+  padding: 0.1rem;
+}
+
+.section-sub-head span {
+  color: #fff;
+  font-size: 21px;
+  line-height: 2.2;
+  opacity: 0.9;
+}
+
+.promotion-mail {
+  width: 70%;
+  text-align: center;
+}
+
+.promotion-mail span {
+  font-size: 22px;
+  padding: 0.1rem 1rem;
+  color: #fff;
+  font-weight: 500;
+  opacity: 0.9;
+  line-height: 2.2;
+}
+
+.sign-up-register {
+  width: 100%;
+  text-align: center;
+}
+
+.sign-up-register input {
+  padding: 0.9rem 4.5rem;
+  outline: 0;
+  border: 1px solid #fff;
+  background: transparent;
+}
+
+.sign-up-register input::placeholder {
+  color: #fff;
+  font-size: 18px;
+}
+
+.sign-up-register button {
+  padding: 0.9rem 1rem;
+  background-color: rgb(229, 9, 20);
+  border: 0;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  border-radius: 0.4rem;
+}
+
+.sign-up-register button:hover {
+  background-color: rgb(201, 9, 20);
+  cursor: pointer;
+}
+
+.onTvNetflix {
+  background-color: rgb(0, 0, 0);
+}
+
+.tv-section-space {
+  padding: 4.5rem 4rem;
+  border-bottom: 5px solid rgb(35, 35, 35);
+}
+
+.laptop-netflix {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.left-laptop-netflix {
+  width: 50%;
+}
+
+.left-laptop-netflix h2,
+.left-laptop-netflix p {
+  color: rgb(255, 255, 255);
+}
+
+.left-laptop-netflix h2 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 1rem 0rem;
+}
+
+.left-laptop-netflix p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.right-laptop-netflix {
+  width: 50%;
+}
+
+.right-laptop-netflix img {
+  width: 88%;
+  height: 100%;
+}
+
+.frequently-section {
+  color: rgb(255, 255, 255);
+}
+.frequent-space {
+  padding: 5rem 4rem;
+  border-bottom: 5px solid rgb(35, 35, 35);
+}
+.faq-div {
+  text-align: center;
+}
+.faq-div h2 strong {
+  font-size: 40px;
+  font-weight: bold;
+  word-spacing: 0.4rem;
+  padding: 1.2rem;
+}
+
+.faq-block-1 {
+  padding: 1.5rem;
+}
+.faq-content {
+  width: 90%;
+}
+
+.frequent-question {
+  padding: 0.4rem 0rem;
+  background: rgb(22, 22, 22);
+  height: 4rem;
+  overflow: hidden;
+  transition: 0.8s;
+}
+
+.frequent-question:hover {
+  background: rgb(65, 65, 65);
+}
+
+.frequent-question h2 {
+  padding: 0.4rem 0.3rem;
+  font-size: 21px;
+  margin-left: 0.9rem;
+  line-height: 1.7;
+}
+
+.frequent-question p {
+  font-size: 28px;
+  font-weight: 800;
+  padding: 0.2rem 0.8rem;
+}
+
+.show {
+  height: 14rem;
+}
+
+.promotion-mail2 {
+  width: 90%;
+  text-align: center;
+}
+
+.promotion-mail2 span {
+  font-size: 22px;
+  padding: 0.1rem 1rem;
+  color: #fff;
+  font-weight: 500;
+  opacity: 0.9;
+  line-height: 2.2;
+}
+
+.video-frame {
+  position: absolute;
+  top: 20%;
+  left: 55%;
+  width: 33%;
+  height: 55%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video-frame2 {
+  position: absolute;
+  top: 6%;
+  left: 58%;
+  width: 28%;
+  height: 55%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.floater-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border: 1px solid #fff;
+  padding: 0.7rem 0rem;
+  border-radius: 1rem;
+  outline: blue;
+  background: #000000;
+  position: absolute;
+  top: 67%;
+  left: 9%;
+}
+
+.floater-div-img {
+  width: 17%;
+}
+.floater-div-img img {
+  width: 100%;
+  height: 100%;
+}
+.floater-text {
+  width: 50%;
+}
+
+.floater-text span {
+  display: block;
+  color: #fff;
+  padding-bottom: 0.4rem;
+  font-size: 16px;
+}
+
+.floater-text .strike-link {
+  color: blue;
+}
+
+.svg {
+  width: 10%;
+}

@@ -1,0 +1,77 @@
+.footer-space {
+  padding: 4.5rem 4rem;
+}
+
+.helpline {
+  padding: 0.6rem;
+}
+
+.helpline span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.helpline span a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+}
+
+.footer-list-block {
+  padding: 0.6rem 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-list {
+  width: 80%;
+}
+
+.footer-nav {
+  line-height: 2rem;
+  padding: 0.2rem;
+}
+
+.footer-nav li a {
+  font-size: 0.875rem;
+  padding: 0.2rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+}
+
+.first-footer-option {
+  width: 42%;
+  height: 100%;
+  padding: 0rem 0.5rem;
+}
+
+.first-footer-option select {
+  padding: 0.2rem 0.6rem;
+  outline: 0;
+  background: transparent;
+}
+
+.first-footer-option select::slotted {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.first-footer-option svg {
+  width: 24px;
+  height: 24px;
+}
+
+.first-footer-option span {
+  color: fff;
+}
+
+.copyright-tag {
+  padding: 0.3rem 0.7rem;
+}
+
+.copyright-tag span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.875rem;
+  line-height: 4rem;
+}
